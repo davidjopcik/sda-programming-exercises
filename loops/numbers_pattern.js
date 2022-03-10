@@ -11,3 +11,12 @@
 1 2 3 4 5 6 7 
 1 2 3 4 5 6 7 8 
 */
+
+let a = ""
+function printPattern(n) {
+    for (i = 1; i <= n; i++) {
+        a += " " + i 
+        console.log(a);
+    }
+}
+printPattern(8)
