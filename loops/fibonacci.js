@@ -20,7 +20,6 @@ function fibonacci(n) {
     console.log("a = " + a);
     console.log("b = " + b);
     console.log("_______");
-
     }
     console.log(b);*/
     console.log(array); 
