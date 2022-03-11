@@ -26,7 +26,7 @@ function minMax(min, max, descending) {
     }
     console.log(arrayOne);
 }
-minMax(10,18, true) 
+minMax(10,18, false) 
 
 
 

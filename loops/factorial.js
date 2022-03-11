@@ -5,11 +5,11 @@ function factorial(n) {
     for (i = n; i >= 1; i--) {
         arrayOne.push(i)
     }
-    console.log(arrayOne);
+    console.log("Array: " + arrayOne);
 
     for(j = 0; j < arrayOne.length; j++) {
         result *= arrayOne[j]
     }
-    console.log(result);
+    console.log("Faktoriál: " + result);
 }
 factorial(5)
