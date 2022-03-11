@@ -13,3 +13,5 @@ function factorial(n) {
     console.log("Faktoriál: " + result);
 }
 factorial(5)
+
+// Nešel by použít jen jeden cyklus? To pole si podle mě vytvářet nemusíš.

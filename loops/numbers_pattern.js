@@ -20,3 +20,5 @@ function printPattern(n) {
     }
 }
 printPattern(8)
+
+// Pěkné řešení.

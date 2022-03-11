@@ -18,3 +18,5 @@ palindrome("ahoj")
 palindrome("amma")
 palindrome("Peter")
 
+// Zkusil bys vymyslet řešení bez použítí funkcí split, reverse a join? Pomocí vlastního cyklu?
+// Celou tuto funkci bys mohl napsat pouze jako console.log(text = text.split("").reverse().join(""));

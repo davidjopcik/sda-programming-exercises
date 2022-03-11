@@ -13,3 +13,5 @@ primeNumber(8)
 primeNumber(31)
 primeNumber(15)
 primeNumber(121)
+
+// Šlo by upravit parametry cyklu tak, abys nemusel dělat tolik průchodů?

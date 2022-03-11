@@ -27,4 +27,21 @@ function minMax(min, max, descending) {
     } */
     console.log(string);
 }
-minMax(10,18, false) 
+minMax(10, 18, false) 
+
+// Šlo by to i takto, možná bych to spíš ale udělal tak, že na základě té podmínky se spustí cyklus s jinými parametry a
+// nemusel bych potom dělat tu potenciálně náročnou operaci s řetězcem.
+// Podmínku ulze zapsat pouze takto: if(descending === true) {
+
+// Např.
+// if(descending) {
+//     for(i = min; i <= max; i++) {
+//         string += i + " "
+//     }
+// } else {
+//     for(i = max; i >= min; i--) {
+//         string += i + " "
+//     }
+// }
+
+console.log(string);

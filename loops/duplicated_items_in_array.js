@@ -14,3 +14,5 @@ function findDup(array){
     console.log(newArray);
 }
 findDup([1, 4, 8, 4, "Peter", "Ondrej", "Jozef", 9, 8, "Jozef", 8, 8, 8])
+
+// Zkus se zamyslet nad tím, jestli by to šlo vyřešit pomocí jednoho cyklu, ve kterém by sis průběžně ty výsledky ukládal.

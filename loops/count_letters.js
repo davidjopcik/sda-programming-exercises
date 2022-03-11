@@ -22,4 +22,7 @@ function findLetter(text) {
 findLetter("ahaahaha")
 
 
-
+// Asi to bude fungovat, ale zkusil bych se zamyslet nad efektivnějším řešením.
+// Určitě to jde udělat pomocí jednoho cyklu a ne dvou vnořených.
+// Navíc ten vnořený cyklus děláš teď kolikrát zbytečně, protože podmínka na řádku 16 nemusí být splněna
+// takže celý ten cyklus na řadcích 11-15 jel zbytečně.
